@@ -23,8 +23,5 @@ def checkPrime(i,primes):
         
 
 if __name__ == "__main__":
-    t1 = time.time()
     generateNPrimes(int(sys.argv[1]))
-    t2 = time.time()
-    print("execution time =",t2-t1,"seconds")
 
